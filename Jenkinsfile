@@ -9,15 +9,6 @@ pipeline {
                 // Add additional build commands as needed
             }
         }
-
-        stage('Test') {
-            steps {
-                // Shell script to run tests
-                sh 'echo "Running tests...cases"'
-                // Add additional test commands as needed
-            }
-        }
-
         stage('Deploy') {
             steps {
                 // Placeholder for deployment step
