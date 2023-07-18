@@ -5,19 +5,10 @@ pipeline {
         stage('Build') {
             steps {
                 // Shell script to perform the build step
-                sh 'echo "Building the project..."'
+                sh 'echo "Building.."'
                 // Add additional build commands as needed
             }
         }
-
-        stage('Test') {
-            steps {
-                // Shell script to run tests
-                sh 'echo "Running tests..."'
-                // Add additional test commands as needed
-            }
-        }
-
         stage('Deploy') {
             steps {
                 // Placeholder for deployment step
@@ -30,7 +21,7 @@ pipeline {
     post {
         success {
             // Actions to be performed if the pipeline is successful
-            echo 'Pipeline executed successfully!'
+            echo 'Pipeline executed !'
         }
         failure {
             // Actions to be performed if the pipeline fails
