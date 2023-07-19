@@ -1,4 +1,4 @@
-pipeline {
+ted newonepipeline {
     agent any
 
     stages {
@@ -21,7 +21,7 @@ pipeline {
     post {
         success {
             // Actions to be performed if the pipeline is successful
-            echo 'Pipeline executed !'
+            echo 'Pipeline executed newone !'
         }
         failure {
             // Actions to be performed if the pipeline fails
