@@ -21,7 +21,7 @@ pipeline {
     post {
         success {
             // Actions to be performed if the pipeline is successful
-            echo 'Pipeline executed !'
+            echo 'Pipeline executed main brach!'
         }
         failure {
             // Actions to be performed if the pipeline fails
